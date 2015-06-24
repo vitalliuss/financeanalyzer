@@ -1,0 +1,2 @@
+# financeanalyzer
+Finance Analyzer is built to get maximum from your expenses. It provides comprehensive information about your charges. You can use detailed export to Excel and even database. Application has several built-in charts for tracking week and month activities. Distinctive feature of Finance Analyzer is a extended analytic: you can get detailed charts for every spending category. You can set custom start of the week and month, enable and disable coin support, export data in Excel and database file formats.

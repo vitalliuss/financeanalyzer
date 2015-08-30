@@ -2,6 +2,17 @@
 Finance Analyzer is built to get maximum from your expenses. It provides comprehensive information about your charges. You can use detailed export to Excel and even database. Application has several built-in charts for tracking week and month activities. Distinctive feature of Finance Analyzer is an extended analytic: you can get detailed charts for every spending category. You can set custom start of the week and month, enable and disable coin support, export data in Excel and database file formats.
 
 # Usage
+* [Main screen](#main-screen)
+  * [Adding expense](#adding-expense)
+  * [Removing expense](#removing-expense)
+* [Statistics and charts](#statistics-and-charts)
+  * [Monthly top](#monthly-top)
+  * [Weekly top](#weekly-top)
+  * [All-time top](#all-time-top)
+  * [Numbers only](#numbers-only)
+* [Import and export](#import-and-export)
+* [Settings and configuration](#settings-and-configuration)
+
 ## Main screen
 On the main screen there are the list of recorded expenses. It is scrollable so you can see the history with latest added items at the top. 
 At the top of the screens there are navigation pane with icons for statistics, import & export, settings. There are also HIDE DATA switch. Press it if you want to hide expense list. 
@@ -49,7 +60,7 @@ Keeps the following data:
 * Maximum amount recorded for one expense
 * Minimum amount recorded for one expense
 
-## Import & export
+## Import and export
 At the moment, only export supported in Microsoft Excel (.xls) and SQLite database file (.db). For exporting data please select the file type and press Export button. Default export location: sdcard/Finance Analyzer/
 ![Export](http://i.imgur.com/WM8g0PY.png)
 After the export is finished the message with file location should appear.

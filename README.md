@@ -6,23 +6,33 @@ Finance Analyzer is built to get maximum from your expenses. It provides compreh
 On the main screen there are the list of recorded expenses. It is scrollable so you can see the history with latest added items at the top. 
 At the top of the screens there are navigation pane with icons for statistics, import & export, settings. There are also HIDE DATA switch. Press it if you want to hide expense list. 
 At the bottom of the screen there are EXPENSE button. Press it to record new expense. 
+![Main screen](http://i.imgur.com/tPO0YVg.png)
 
 ## Adding expense
 The steps for adding new expense are easy:
 1. Set expense name in the first text box
 2. Set the price in amount text box
 3. Set label. Label indicates the spending's category. 
+![Adding expense](http://i.imgur.com/ESdl304.png)
 Every text box has automcomplete. It goes through all of the previous spending and looks for names match. If you already have the expense with same name, the application will set the amount and label automatically based on the previous expense data. However, you can override the amount and label manually.
+![AutoComplete](http://i.imgur.com/OS4crNw.png)
 
 ## Removing expense
 In order to remove the expense go to the main screen and find the expense in the list. Perform long press (long click) and select OK in pop-up Delete Expense dialog.
+![Removing expense](http://i.imgur.com/xxc5Pf9.png)
+![Removed](http://i.imgur.com/bhkiIbx.png)
 
 ## Statistics and charts
 To start exploring statistics select chart type first.
+![Chart selector](http://i.imgur.com/pn63RyZ.png)
 
 ### Monthly top
-Pie chart for all labels from the start of the current month (see Settings and configuration for details). Click on label sector to see the expenses.
-Expenses from selected label. Click on expense to see detailed report on it in bar chart.
+Pie chart for all labels from the start of the current month (see Settings and configuration for details). 
+![Monthly top](http://i.imgur.com/KynvQIv.png)
+Click on label sector to see the expenses.
+![Label details](http://i.imgur.com/vEtzb4C.png)
+Expenses from selected label. Click on expense to see detailed report on it in bar chart. X axis is amount, Y axis is day of month.
+![Expense details](http://i.imgur.com/wJgPlF3.png)
 
 ### Weekly top
 The same as monthly top but from the start of the week (see Settings and configuration for details).
@@ -41,9 +51,13 @@ Keeps the following data:
 
 ## Import & export
 At the moment, only export supported in Microsoft Excel (.xls) and SQLite database file (.db). For exporting data please select the file type and press Export button. Default export location: sdcard/Finance Analyzer/
+![Export](http://i.imgur.com/WM8g0PY.png)
+After the export is finished the message with file location should appear.
+![Exported](http://i.imgur.com/gtwaEdF.png)
 
 ## Settings and configuration
 The following settings supported: 
 * First day of week. Used for weekly top labels chart. Default: Monday
 * First day of month. Used for monthly top labels chart. Default: 1
 * Coin support. Changes amount format to display coins (cents). Default: false
+![Settings](http://i.imgur.com/ldOIfIV.png)

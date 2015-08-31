@@ -2,7 +2,7 @@
 Finance Analyzer is built to get maximum from your expenses. It provides comprehensive information about your charges. You can use detailed export to Excel and even database. Application has several built-in charts for tracking week and month activities. Distinctive feature of Finance Analyzer is an extended analytic: you can get detailed charts for every spending category. You can set custom start of the week and month, enable and disable coin support, export data in Excel and database file formats.
 # Donate
 If you would like to support the project feel free to donate. 
-![Donate with PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NHQJJCR7R6JEG).
+[Donate with PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NHQJJCR7R6JEG).
 
 # Usage
 * [Main screen](#main-screen)
